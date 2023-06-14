@@ -1,1 +1,1 @@
-$ pip frezze openpyxl
+$ pip freeze openpyxl
