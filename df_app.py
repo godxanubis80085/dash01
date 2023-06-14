@@ -1,7 +1,5 @@
 import pandas as pd
 import streamlit as st
-!pip install plotly
-import plotly.express as px
 import datetime
 
 st.set_page_config(page_title='CENTRAL REGISTRAR FOR COOPERATIVE SOCIETIES',
