@@ -24,7 +24,7 @@ df["Date"] = [
 ###buttons 
 
 def create_button(url, label):
-    return f'<a href="{url}"><button style="background-color: Red; border: 1px solid red; border-radius: 3px; padding: 2px 4px;">{label}</button></a>'
+    return f'<a href="{url}"><button style="background-color: Red; border: 1px solid red; border-radius: 3px; padding: 4px 4px;">{label}</button></a>'
 
 
 # Create a table with 1 row and 4 columns
