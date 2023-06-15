@@ -23,22 +23,34 @@ df["Date"] = [
 
 ###buttons 
 
-url = 'https://godxanubis80085-dash01-df2-f63416.streamlit.app/'
+def create_button(url, label):
+    return f'<a href="{url}">
+    <button style="background-color: Red; border: 1px solid red; 
+    border-radius: 3px; padding: 2px 4px;">{label}</button></a>'
 
-st.markdown(f'''
-<a href={url}><button style="background-color:Red;border:1px solid red;border-radius:3px;padding: 2px 4px;">
-Custom Search</button></a>
-''', unsafe_allow_html=True)
 
-st.markdown(f'''
-<a href={url}><button style="background-color:Red;border:1px solid red;border-radius:3px;padding: 2px 4px;">
-View Sorted</button></a>
-''', unsafe_allow_html=True)
+# Create a table with 1 row and 4 columns
+col1, col2, col3, col4 = st.beta_columns(4)
 
-st.markdown(f'''
-<a href={url}><button style="background-color:Red;border:1px solid red;border-radius:3px;padding: 2px 4px;">
-Trends </button></a>
-''', unsafe_allow_html=True)
+# Button 1
+url1 = "https://example.com/page1"
+button_label1 = "Button 1"
+col1.markdown(create_button(url1, button_label1), unsafe_allow_html=True)
+
+# Button 2
+url2 = "https://example.com/page2"
+button_label2 = "Button 2"
+col2.markdown(create_button(url2, button_label2), unsafe_allow_html=True)
+
+# Button 3
+url3 = "https://example.com/page3"
+button_label3 = "Button 3"
+col3.markdown(create_button(url3, button_label3), unsafe_allow_html=True)
+
+# Button 4
+url4 = "https://example.com/page4"
+button_label4 = "Button 4"
+col4.markdown(create_button(url4, button_label4), unsafe_allow_html=True)
 
 ###Main page 
 
