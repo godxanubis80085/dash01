@@ -21,6 +21,13 @@ df["Date"] = [
         for target_date in df["Date"]
     ]
 
+###buttons 
+
+url = 'https://godxanubis80085-dash01-df2-f63416.streamlit.app/'
+
+st.markdown(f'''
+<a href={url}><button style="background-color:GreenYellow;">Custom Search</button></a>
+''', unsafe_allow_html=True)
 
 ###Main page 
 
