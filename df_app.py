@@ -31,23 +31,23 @@ def create_button(url, label):
 col1, col2, col3, col4 = st.columns(4)
 
 # Button 1
-url1 = "https://example.com/page1"
-button_label1 = "Button 1"
+url1 = " https://godxanubis80085-dash01-df-app-6uqxb3.streamlit.app/ "
+button_label1 = " Home  "
 col1.markdown(create_button(url1, button_label1), unsafe_allow_html=True)
 
 # Button 2
-url2 = "https://example.com/page2"
-button_label2 = "Button 2"
+url2 = " https://godxanubis80085-dash01-df2-f63416.streamlit.app/ "
+button_label2 = " Custom search "
 col2.markdown(create_button(url2, button_label2), unsafe_allow_html=True)
 
 # Button 3
-url3 = "https://example.com/page3"
-button_label3 = "Button 3"
+url3 = "https://example.com/"
+button_label3 = " Sorted View "
 col3.markdown(create_button(url3, button_label3), unsafe_allow_html=True)
 
 # Button 4
-url4 = "https://example.com/page4"
-button_label4 = "Button 4"
+url4 = "https://example.com/"
+button_label4 = " Trends "
 col4.markdown(create_button(url4, button_label4), unsafe_allow_html=True)
 
 ###Main page 
