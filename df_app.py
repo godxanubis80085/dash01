@@ -26,7 +26,7 @@ df["Date"] = [
 url = 'https://godxanubis80085-dash01-df2-f63416.streamlit.app/'
 
 st.markdown(f'''
-<a href={url}><button style="background-color:Red;color:Red;">Custom Search</button></a>
+<a href={url}><button style="background-color:Red;border-radius:3px;">Custom Search</button></a>
 ''', unsafe_allow_html=True)
 
 ###Main page 
