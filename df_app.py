@@ -31,7 +31,7 @@ Custom Search</button></a>
 ''', unsafe_allow_html=True)
 
 st.markdown(f'''
-<a href={ur;}><button style="background-color:Red;border:1px solid red;border-radius:3px;padding: 2px 4px;">
+<a href={url}><button style="background-color:Red;border:1px solid red;border-radius:3px;padding: 2px 4px;">
 View Sorted</button></a>
 ''', unsafe_allow_html=True)
 
