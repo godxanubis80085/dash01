@@ -28,7 +28,7 @@ def create_button(url, label):
 
 
 # Create a table with 1 row and 4 columns
-col1, col2, col3, col4 = st.beta_columns(4)
+col1, col2, col3, col4 = st.columns(4)
 
 # Button 1
 url1 = "https://example.com/page1"
